@@ -5,6 +5,7 @@ from pprint import pprint
 
 app = Flask(__name__)
 
+
 @app.route('/api', methods=['POST'])
 def trigger_k8s_cronjob():
     cronjob_name = request.args.get('cronjob')
