@@ -1,1 +1,1 @@
-# alertmanager-create-k8s-job
+# alertmanager-trigger-k8s-cronjob
